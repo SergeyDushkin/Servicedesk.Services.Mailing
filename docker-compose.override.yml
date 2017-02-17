@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  servicedesk.services.mailing:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
